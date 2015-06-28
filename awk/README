@@ -1,0 +1,5 @@
+Weka ne sprema kategoriziranje test-seta, treba koristiti opciju outputanja u neki oblik, najpogodniji je CVS.
+Potreban je samo output kategorija, pa taj stupac kopiramo i promjenimo u oblik pogodan awk skriptama, dakle samo imena kategorija, ne i njihov indeks
+(dakle, npr. 1:normal -> normal)
+To smo postigli najobičnijim Find/Replace All u uređivaču teksta koji podržava regularne izraze (regex potreban je \d+:)
+Novostvorenu datoteku potom koristimo kako je opisano u README-awk.

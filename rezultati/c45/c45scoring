@@ -1,0 +1,17 @@
+
+KDD'99 contest scoring report for file c45categories
+
+Confusion matrix:
+      predicted       0	     1	     2	     3	     4	  %correct
+actual  \---------------------------------------------------------
+0	|	  60247	   236	    89	     3	    18	  99.4%
+1	|	    656	  3283	   227	     0	     0	  78.8%
+2	|	   6095	  1050	222703	     0	     5	  96.9%
+3	|	    134	    65	     1	    12	    16	   5.3%
+4	|	  15329	    12	     0	     5	   843	   5.2%
+	|
+%correct|	  73.1%	  70.7%	  99.9%	  60.0%	  95.6%	
+
+Total cost 76732 over 311029 predictions
+0.246704 +/- 0.906571 is mean +/- std. dev. cost for file c45categories 
+

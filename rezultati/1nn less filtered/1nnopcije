@@ -1,0 +1,2 @@
+weka.filters.supervised.instance.SpreadSubsample -M 100.0 -X 0.0 -S 1 (oko 2379 preostalih)
+weka.classifiers.lazy.IBk -K 1 -W 0 -A "weka.core.neighboursearch.LinearNNSearch -A \"weka.core.EuclideanDistance -R first-last\""

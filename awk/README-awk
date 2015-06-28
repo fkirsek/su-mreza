@@ -1,0 +1,12 @@
+Sve koritene awk skripte su u folderu awk. Pretpostavlja se korištenje istih iz istog foldera.
+Korištenje awk skripti:
+Neka je alg_answers filtrirani output WEKA algoritma (pogledaj README za više informacija o tome)
+AWK skripte se općenito pokreću sa awk -f ime_skripte argumenti > output_datoteka) 
+(> je naravno, shell naredba za preusmjeravanje outputa općenito, ne samo u slučaju awk-a)
+
+awk -f categorization.awk alg_answers > alg_categories
+awk -f scoring.awk alg_categories > alg_score
+
+Sada se evaluacija algoritma nalazi u alg_score, tekstualnoj datoteci.
+Sve korištene skripte su sa:
+http://cseweb.ucsd.edu/~elkan/clresults.html
