@@ -1,0 +1,17 @@
+
+KDD'99 contest scoring report for file adaboost_c45_categories
+
+Confusion matrix:
+      predicted       0	     1	     2	     3	     4	  %correct
+actual  \---------------------------------------------------------
+0	|	  60302	   210	    75	     3	     3	  99.5%
+1	|	    646	  3327	   193	     0	     0	  79.9%
+2	|	   5345	   161	224063	     0	   284	  97.5%
+3	|	    178	    21	     5	    13	    11	   5.7%
+4	|	  15741	    10	     0	     7	   431	   2.7%
+	|
+%correct|	  73.3%	  89.2%	  99.9%	  54.2%	  59.0%	
+
+Total cost 76429 over 311036 predictions
+0.245724 +/- 0.913445 is mean +/- std. dev. cost for file adaboost_c45_categories 
+
