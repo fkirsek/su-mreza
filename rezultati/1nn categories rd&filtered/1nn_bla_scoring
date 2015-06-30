@@ -1,0 +1,17 @@
+
+KDD'99 contest scoring report for file 1nn_c&rd&f_categories
+
+Confusion matrix:
+      predicted       0	     1	     2	     3	     4	  %correct
+actual  \---------------------------------------------------------
+0	|	  57576	  1504	   821	   208	   484	  95.0%
+1	|	    908	  2862	   113	    34	   249	  68.7%
+2	|	   6079	   452	222899	    52	   371	  97.0%
+3	|	    190	     7	    18	     7	     6	   3.1%
+4	|	  14127	   301	   143	   327	  1291	   8.0%
+	|
+%correct|	  73.0%	  55.8%	  99.5%	   1.1%	  53.8%	
+
+Total cost 78368 over 311030 predictions
+0.251963 +/- 0.892427 is mean +/- std. dev. cost for file 1nn_c&rd&f_categories 
+

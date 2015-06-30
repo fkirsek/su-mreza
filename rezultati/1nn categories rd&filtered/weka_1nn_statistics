@@ -1,0 +1,35 @@
+=== Evaluation on test set ===
+
+Time taken to test model on supplied test set: 425.63 seconds
+
+=== Summary ===
+
+Correctly Classified Instances      287788               92.5277 %
+Incorrectly Classified Instances     23241                7.4723 %
+Kappa statistic                          0.8211
+Mean absolute error                      0.0302
+Root mean squared error                  0.1728
+Relative absolute error                 10.1309 %
+Root relative squared error             45.0474 %
+Coverage of cases (0.95 level)          92.5277 %
+Mean rel. region size (0.95 level)      20      %
+Total Number of Instances           311029     
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0.974    0.079    0.748      0.974    0.847      0.815    0.948     0.734     0
+                 0.830    0.005    0.675      0.830    0.744      0.745    0.912     0.565     1
+                 0.972    0.006    0.998      0.972    0.985      0.946    0.983     0.991     2
+                 0.317    0.002    0.124      0.317    0.178      0.197    0.658     0.040     3
+                 0.104    0.002    0.703      0.104    0.182      0.258    0.552     0.120     4
+Weighted Avg.    0.925    0.020    0.929      0.925    0.912      0.881    0.953     0.889     
+
+=== Confusion Matrix ===
+
+      a      b      c      d      e   <-- classified as
+  59033   1072    261    110    117 |      a = 0
+    352   3458    166     17    173 |      b = 1
+   5436    408 223532     61    416 |      c = 2
+     19    141      0     78      8 |      d = 3
+  14040     47     35    362   1687 |      e = 4
